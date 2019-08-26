@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Conversor Divisas</title>
+		<link rel="stylesheet" type="text/css" href="conversorDivisas.css"> 
+		<script type="text/javascript" src="conversorDivisas.js"></script>
+	</head>
+	<body>
+		<H1>Mi Conversor Divisas - Uriel Vargas Rosales</H1>
+		<br/>
+		<br/>
+		<div id="grande">
+
+			<table id="informacion">
+				<tr id="fila0"><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+				<tr id="fila1"><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+				<tr id="fila2"><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+				<tr id="fila3"><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+				<!-- <tr id="fila4"><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+				<tr id="fila5"><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr> -->
+			</table>
+
+			<div id="estrella">
+				<!--<img id="M0" src="" onclick="marca0()"> -->
+				<div id="M0" onclick="marca0()" align="center"></div>
+				<div id="M1" onclick="marca1()" align="center"></div>
+				<div id="M2" onclick="marca2()" align="center"></div>
+				<div id="M3" onclick="marca3()" align="center"></div>
+				<div id="M4" onclick="marca4()" align="center"></div>
+				<div id="M5" onclick="marca5()" align="center"></div>
+				<div id="M6" onclick="marca6()" align="center"></div>
+				<div id="M7" onclick="marca7()" align="center"></div>
+				<div id="M8" onclick="marca8()" align="center"></div>
+				<div id="M9" onclick="marca9()" align="center"></div>
+			</div>
+			
+			<div id=convertirmoneda align="center">
+				<form action="#" name="buscar">
+					<input type="text" name="valor0" size="4" class="leer"/>
+					<input type="text" name="valor1" size="4" class="leer"/>
+					<input type="text" name="valor2" size="4" class="leer"/>
+					<input type="text" name="valor3" size="4" class="leer"/>
+					<input type="text" name="valor4" size="4" class="leer"/>
+					<input type="text" name="valor5" size="4" class="leer"/>
+					<input type="text" name="valor6" size="4" class="leer"/>
+					<input type="text" name="valor7" size="4" class="leer"/>
+					<input type="text" name="valor8" size="4" class="leer"/>
+					<input type="text" name="valor9" size="4" class="leer"/>
+					<br>
+					<input id ="boton" type="button" value="CONVERTIR" onclick="miconversion()" />
+					<input id ="boton" type="button" value="LIMPIAR" onclick="limpiar()" />
+				</form>
+			</div>
+		</div>
+	</body>
+</html>		
